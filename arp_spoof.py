@@ -30,8 +30,8 @@ def restore(destination_ip, source_ip):
     # print(packet.summary())
 
 
-target_ip = "192.168.1.4"
-gateway_ip = "192.168.1.1"
+target_ip = "10.0.2.4"
+gateway_ip = "10.0.2.1"
 
 sent_packets_count = 0
 try:
